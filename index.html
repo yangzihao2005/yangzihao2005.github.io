@@ -127,7 +127,7 @@ function setupToken() {
   );
   if (token) {
     localStorage.setItem('github_token', token);
-    loadLinks();   // 重新加载
+    location.reload();
   }
 }
 
