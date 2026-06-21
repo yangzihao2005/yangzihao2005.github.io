@@ -66,6 +66,9 @@
       <!-- 列表 -->
       <div id="linkList"></div>
       <div id="linkStatus" style="text-align:center; color:#999; font-size:14px; margin-top:10px;"></div>
+      <div style="text-align:center; margin-top:6px;">
+        <span onclick="resetToken()" style="font-size:12px; color:#ccc; cursor:pointer;">重置 Token</span>
+      </div>
     </div>
 
     <div style="
@@ -112,7 +115,13 @@ async function saveLinks(links) {
     headers: { Authorization: 'token ' + token, 'Content-Type': 'application/json' },
     body: JSON.stringify({ message: 'update links', content, sha })
   });
-  if (!r.ok) throw new Error('保存失败: ' + (await r.json()).message);
+  if (!r.ok) {
+    const msg = (await r.json()).message;
+    if (msg === 'Not Found') {
+      throw new Error('Token 无效或没有 repo 权限，请重新设置');
+    }
+    throw new Error(msg);
+  }
 }
 
 // 首次使用：引导用户设置 token
@@ -129,6 +138,11 @@ function setupToken() {
     localStorage.setItem('github_token', token);
     location.reload();
   }
+}
+
+function resetToken() {
+  localStorage.removeItem('github_token');
+  setupToken();
 }
 
 // ===== 增 / 删 =====
