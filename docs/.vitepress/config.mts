@@ -28,7 +28,7 @@ export default defineConfig({
             { text: '1. 传统网页搭建', link: '/tutorial/01-traditional' },
             { text: '2. VitePress 配置指南', link: '/tutorial/02-vitepress' },
             { text: '3. 语雀笔记部署指南', link: '/tutorial/03-yuque' },
-            { text: '4. 从零到部署完整总结', link: '/tutorial/04-summary' },
+            { text: '4. 部署到 GitHub Pages', link: '/tutorial/05-deploy' },
           ],
         },
       ],
