@@ -35,8 +35,7 @@ export default defineConfig({
         {
           text: 'Leetcode好题链接',
           items: [
-            { text: '1. 两数之和', link: '/tutorial/07-leetcode-1' },
-            { text: '2. 三数之和', link: '/tutorial/08-leetcode-15' },
+            { text: '数据结构', link: '/tutorial/05-leetcode1' },
           ]
         }
       ],
