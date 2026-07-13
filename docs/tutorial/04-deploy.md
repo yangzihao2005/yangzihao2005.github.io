@@ -3,15 +3,15 @@ title: 部署到 GitHub Pages
 description: Git 配置、SSH 密钥、GitHub Actions 自动部署、日常推送流程
 ---
 
-## 部署到 GitHub Pages
+# 部署到 GitHub Pages
 
-### 前提
+## 前提
 
 - 注册 GitHub 账号
 - 创建仓库（用户主页必须叫 `用户名.github.io`）
 - 安装了 Git
 
-### 设置 SSH 密钥（国内访问 GitHub 需要）
+## 设置 SSH 密钥（国内访问 GitHub 需要）
 
 ```bash
 # 1. 生成密钥
@@ -25,7 +25,7 @@ cat ~/.ssh/id_ed25519.pub
 # 4. 如果 SSH 配置文件有问题，检查 ~/.ssh/config 是否有多余行
 ```
 
-### 推送代码
+## 推送代码
 
 ```bash
 # 初始化 Git
@@ -46,7 +46,7 @@ git push -u origin main
 git push -u origin main --force
 ```
 
-### 开启 GitHub Actions 自动部署
+## 开启 GitHub Actions 自动部署
 
 1. 在项目根目录创建 `.github/workflows/deploy.yml`
 2. 填入以下内容：
@@ -99,7 +99,7 @@ jobs:
 3. 去 GitHub 仓库 Settings → Pages → **Source 选 GitHub Actions**
 4. 以后每次 `git push` 到 main 分支，自动构建并部署
 
-### 如果第一次构建失败
+## 如果第一次构建失败
 
 构建日志里报 `dead link`：
 
