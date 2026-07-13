@@ -24,6 +24,7 @@ export default defineConfig({
       '/tutorial/': [
         {
           text: 'VitePress 搭建教程',
+          collapsed: false,
           items: [
             { text: '1. 传统网页搭建', link: '/tutorial/01-traditional' },
             { text: '2. VitePress 配置指南', link: '/tutorial/02-vitepress' },
@@ -33,6 +34,7 @@ export default defineConfig({
         },
         {
           text: 'Leetcode好题链接',
+          collapsed: false,
           items: [
             { text: '数据结构', link: '/tutorial/05-leetcode1' },
           ]
