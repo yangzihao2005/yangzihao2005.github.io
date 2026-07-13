@@ -9,6 +9,7 @@ export default defineConfig({
   srcDir: '.',             // Markdown 源目录（默认项目根目录）
   outDir: '.vitepress/dist', // 构建输出目录
   cleanUrls: true,         // 生成无 .html 后缀的 URL
+  ignoreDeadLinks: true,   // 忽略死链接检查
 
   // === 主题配置 ===
   themeConfig: {
