@@ -107,7 +107,7 @@ export default defineConfig({
 npm run docs:dev
 ```
 
-打开 [http://localhost:5173/](http://localhost:5173/) 即可在本地预览。
+打开 http://localhost:5173/ 即可在本地预览。
 
 ::: tip 如果改了配置没效果
 删掉自定义主题文件即可：删除 `docs/.vitepress/theme/` 整个文件夹，VitePress 就会自动使用默认主题。
