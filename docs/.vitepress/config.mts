@@ -29,6 +29,7 @@ export default defineConfig({
             { text: '2. VitePress 配置指南', link: '/tutorial/02-vitepress' },
             { text: '3. 语雀笔记部署指南', link: '/tutorial/03-yuque' },
             { text: '4. 部署到 GitHub Pages', link: '/tutorial/04-deploy' },
+            { text: '5. 语雀写作规范', link: '/tutorial/06-yuque-tips' },
           ],
         },
       ],
