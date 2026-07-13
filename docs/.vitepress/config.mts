@@ -32,6 +32,13 @@ export default defineConfig({
             { text: '5. 语雀写作规范', link: '/tutorial/06-yuque-tips' },
           ],
         },
+        {
+          text: 'Leetcode好题链接',
+          items: [
+            { text: '1. 两数之和', link: '/tutorial/07-leetcode-1' },
+            { text: '2. 三数之和', link: '/tutorial/08-leetcode-15' },
+          ]
+        }
       ],
       '/tools/': [
         {
