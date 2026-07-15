@@ -48,6 +48,14 @@ export default defineConfig({
           ],
         },
       ],
+      '/Embedded/': [
+        {
+          text: '嵌入式',
+          items: [
+            { text: '嵌入式入门总纲', link: '/Embedded/01-overview' },
+          ],
+        },
+      ],
     },
     // 社交链接（右上角图标）
     socialLinks: [
