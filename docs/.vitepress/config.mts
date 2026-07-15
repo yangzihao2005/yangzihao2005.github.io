@@ -16,7 +16,7 @@ export default defineConfig({
     // 导航栏（顶部）
     nav: [
       { text: '首页', link: '/' },
-      { text: '教程', link: '/tutorial/01-traditional' },
+      { text: '教程', link: '/tutorial/vitepress/01-traditional' },
       { text: '工具', link: '/tools/dev-tools' },
     ],
     // 侧边栏（左侧目录）注意这个在主页中不会显示，只有在有侧边栏的页面中才会显示
@@ -26,33 +26,31 @@ export default defineConfig({
           text: 'VitePress 搭建教程',
           collapsed: false,
           items: [
-            { text: '1. 传统网页搭建', link: '/tutorial/01-traditional' },
-            { text: '2. VitePress 配置指南', link: '/tutorial/02-vitepress' },
-            { text: '3. 语雀笔记部署指南', link: '/tutorial/03-yuque' },
-            { text: '4. 部署到 GitHub Pages', link: '/tutorial/04-deploy' },
+            { text: '1. 传统网页搭建', link: '/tutorial/vitepress/01-traditional' },
+            { text: '2. VitePress 配置指南', link: '/tutorial/vitepress/02-vitepress' },
+            { text: '3. 语雀笔记部署指南', link: '/tutorial/vitepress/03-yuque' },
+            { text: '4. 部署到 GitHub Pages', link: '/tutorial/vitepress/04-deploy' },
           ],
         },
         {
           text: 'Leetcode好题链接',
           collapsed: false,
           items: [
-            { text: '数据结构', link: '/tutorial/05-leetcode1' },
+            { text: '数据结构', link: '/tutorial/leetcode/01-leetcode1' },
           ]
-        }
+        },
+        {
+          text: '嵌入式',
+          items: [
+            { text: '嵌入式入门总纲', link: '/tutorial/embedded/01-overview' },
+          ],
+        },
       ],
       '/tools/': [
         {
           text: '工具与链接收藏',
           items: [
             { text: '常用开发工具', link: '/tools/dev-tools' },
-          ],
-        },
-      ],
-      '/Embedded/': [
-        {
-          text: '嵌入式',
-          items: [
-            { text: '嵌入式入门总纲', link: '/Embedded/01-overview' },
           ],
         },
       ],
