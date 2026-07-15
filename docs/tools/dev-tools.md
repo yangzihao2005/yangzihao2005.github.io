@@ -15,7 +15,6 @@
 ## 学习资源
 - [菜鸟教程](https://www.runoob.com/) - 编程入门教程
 - [bilibili](https://www.bilibili.com/) - 视频学习网站
-- [CS自学指南](https://csdiy.wiki/) - CS自学指南
 - [Missing Semester](https://missing-semester-cn.github.io/) - Missing Semester
 - [Vite Press](https://vitepress.dev/zh/) - 静态网页构建网站
 - [百度网盘](https://pan.baidu.com/disk/main#/index?category=all) - 网盘网页端
@@ -28,7 +27,14 @@
 - [DeepSeek](https://www.deepseek.com/) - 国产AI
 - [PhotoGpt](https://photogpt.io/) - AI生图
 
-## 加速器
+## VPN
 - [自由猫](https://ziyoumao.cloud/) - 全球网络服务
+
+## GitHub收藏仓库
+- [CS自学指南](https://csdiy.wiki/) - CS自学指南
+- [GitHub每月项目分享](https://hellogithub.com/) - 开源项目分享
+- [从零实现各种项目](https://github.com/codecrafters-io/build-your-own-x) 
+- [免费API合集](https://github.com/public-apis/public-apis) - api合集:做任何项目，不需要自己捏造数据,来这里找一找接口
+- [AI操纵浏览器](https://github.com/browser-use/browser-use) - ai操纵浏览器
 
 
