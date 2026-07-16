@@ -33,16 +33,17 @@ export default defineConfig({
           ],
         },
         {
-          text: 'Leetcode好题链接',
+          text: 'Leetcode',
           collapsed: false,
           items: [
-            { text: '数据结构', link: '/tutorial/leetcode/01-leetcode1' },
+            { text: '1.数据结构题目', link: '/tutorial/leetcode/01-leetcode1' },
           ]
         },
         {
           text: '嵌入式',
           items: [
-            { text: '嵌入式入门总纲', link: '/tutorial/embedded/01-overview' },
+            { text: '1.嵌入式入门总纲', link: '/tutorial/embedded/01-overview' },
+            { text: '2.开发环境与硬件环境', link: '/tutorial/embedded/02-environment' },
           ],
         },
       ],
