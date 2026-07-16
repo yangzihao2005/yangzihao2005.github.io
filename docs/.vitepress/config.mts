@@ -41,15 +41,18 @@ export default defineConfig({
         },
         {
           text: '嵌入式',
+          collapsed: false,
           items: [
             { text: '1.嵌入式入门总纲', link: '/tutorial/embedded/01-overview' },
             { text: '2.开发环境与硬件环境', link: '/tutorial/embedded/02-environment' },
+            { text: '3.STM32F103ZET6', link: '/tutorial/embedded/03-initialknow.md' },
           ],
         },
       ],
       '/tools/': [
         {
           text: '工具与链接收藏',
+          collapsed: false,
           items: [
             { text: '常用开发工具', link: '/tools/dev-tools' },
           ],

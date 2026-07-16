@@ -99,7 +99,8 @@ ARM 从手机起家，现在已经扩张到四个关键领域：
 
 > **我的理解**：A 系列是“大力士”，R 系列是“快枪手”，M 系列是“省钱小能手”——不同活派不同的人干。
 
->arm公司官⽹，全球官⽹：https://www.arm.com/，中国官⽹https://www.armchina.com/。
+>arm公司官⽹，全球官⽹：https://www.arm.com/;
+>中国官⽹: https://www.armchina.com/。
 
 ### 4.3 意法半导体（ST）：把 ARM 图纸变成芯片的公司
 
