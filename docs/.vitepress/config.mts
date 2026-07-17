@@ -16,7 +16,7 @@ export default defineConfig({
     // 导航栏（顶部）
     nav: [
       { text: '首页', link: '/' },
-      { text: '教程', link: '/tutorial/vitepress/01-traditional' },
+      { text: '教程', link: '/tutorial/vitepress/01-overview' },
       { text: '工具', link: '/tools/dev-tools' },
     ],
     // 侧边栏（左侧目录）注意这个在主页中不会显示，只有在有侧边栏的页面中才会显示
