@@ -5,6 +5,8 @@
 - [Github](https://github.com/) - 代码托管仓库
 - [Gitee](https://gitee.com/) - 代码托管仓库
 - [PDF处理工具](https://www.dpdf.com/zh) - 代码托管仓库
+- [DeepSeek](https://www.deepseek.com/) - 国产AI
+- [自由猫](https://ziyoumao.cloud/) - 全球网络服务
 
 ## 刷题与算法
 - [LeetCode](https://leetcode.cn/) - 刷题面试必备
@@ -23,12 +25,6 @@
 - [语雀](https://www.yuque.com/) - 在线笔记/知识库
 - [CSDN](https://www.csdn.net/) - 博客
 
-## AI
-- [DeepSeek](https://www.deepseek.com/) - 国产AI
-- [PhotoGpt](https://photogpt.io/) - AI生图
-
-## VPN
-- [自由猫](https://ziyoumao.cloud/) - 全球网络服务
 
 ## GitHub收藏仓库
 - [CS自学指南](https://csdiy.wiki/) - CS自学指南
@@ -36,5 +32,6 @@
 - [从零实现各种项目](https://github.com/codecrafters-io/build-your-own-x) 
 - [免费API合集](https://github.com/public-apis/public-apis) - api合集:做任何项目，不需要自己捏造数据,来这里找一找接口
 - [AI操纵浏览器](https://github.com/browser-use/browser-use) - ai操纵浏览器
+- [Github首次贡献-教程](https://firstcontributions.github.io/) - Github首次贡献教程
 
 

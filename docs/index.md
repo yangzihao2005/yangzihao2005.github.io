@@ -21,7 +21,7 @@ features:
   - icon: 📖
     title: VitePress 搭建教程
     details: 从零开始学习 VitePress，搭建属于自己的知识网站
-    link: /tutorial/01-traditional
+    link: '/tutorial/vitepress/01-traditional' 
   - icon: 🔗
     title: 工具与链接收藏
     details: 收集开发工具、学习资源，打造高效工作流

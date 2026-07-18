@@ -16,11 +16,22 @@ export default defineConfig({
     // 导航栏（顶部）
     nav: [
       { text: '首页', link: '/' },
-      { text: '教程', link: '/tutorial/vitepress/01-overview' },
+      { text: '教程', link: '/tutorial/vitepress/01-traditional' },
       { text: '工具', link: '/tools/dev-tools' },
+      { text: '记录', link: '/logs/log' },
     ],
     // 侧边栏（左侧目录）注意这个在主页中不会显示，只有在有侧边栏的页面中才会显示
     sidebar: {
+      '/logs/': [
+        {
+          text: '学习记录',
+          collapsed: false,
+          items: [
+            { text: '我的记录', link: '/logs/log' },
+          ],
+        },
+      ],
+
       '/tutorial/': [
         {
           text: 'VitePress 搭建教程',
