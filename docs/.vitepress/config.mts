@@ -59,6 +59,7 @@ export default defineConfig({
             { text: '3.STM32F103ZET6', link: '/tutorial/embedded/03-initialknow.md' },
             { text: '4.GPIO结构', link: '/tutorial/embedded/04-GPIO' },
             { text: '5.GPIO输入输出', link: '/tutorial/embedded/05-GPIO_deep' },
+            { text: '6.GPIO输出输入具体操作', link: '/tutorial/embedded/06-GPIO_example' },
           ],
         },
       ],
