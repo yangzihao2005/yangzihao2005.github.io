@@ -6,6 +6,7 @@
 - [Gitee](https://gitee.com/) - 代码托管仓库
 - [PDF处理工具](https://www.dpdf.com/zh) - 代码托管仓库
 - [DeepSeek](https://www.deepseek.com/) - 国产AI
+- [ChatGpt](https://www.chatgpt.com/) - 国外AI
 - [自由猫](https://ziyoumao.cloud/) - 全球网络服务
 
 ## 刷题与算法
