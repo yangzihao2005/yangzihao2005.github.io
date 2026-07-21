@@ -63,6 +63,13 @@ export default defineConfig({
             { text: '7.总线与寄存器基础', link: '/tutorial/embedded/07-bus_register' },
           ],
         },
+        {
+          text: 'docker',
+          collapsed: false,
+          items: [
+            { text: 'docker入门', link: '/tutorial/docker' },
+          ],
+        },
       ],
       '/tools/': [
         {
