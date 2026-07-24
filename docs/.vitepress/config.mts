@@ -61,6 +61,9 @@ export default defineConfig({
             { text: '5.GPIO输入输出', link: '/tutorial/embedded/05-GPIO_deep' },
             { text: '6.GPIO输出输入具体操作', link: '/tutorial/embedded/06-GPIO_example' },
             { text: '7.总线与寄存器基础', link: '/tutorial/embedded/07-bus_register' },
+            { text: '8.GPIO源码解析', link: '/tutorial/embedded/08-GPIO_sourcecode' },
+            { text: '9.RCC', link: '/tutorial/embedded/09-RCC' },
+            { text: '10.STM32板子暂时平替...', link: '/tutorial/embedded/10-STM32_replace' },
           ],
         },
         {
